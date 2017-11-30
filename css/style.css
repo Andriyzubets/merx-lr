@@ -9,7 +9,7 @@ body {
 header {
 	height: 312px;
 	width: 100%;
-	background-image: linear-gradient(to bottom, black -40%, transparent 120%), url(../img/header.png);
+	background-image: linear-gradient(to bottom, black -40%, transparent 120%), url(../img/venezia.jpg);
     background-position-x: center;
 	background-size: cover;
 	padding: 40px 0;
@@ -429,7 +429,7 @@ input::-webkit-input-placeholder {
 }
 .project-order {
 	text-align: center;
-	background-image: linear-gradient(to bottom, white -10%, transparent 120%), url(../img/table.png);
+	background-image: linear-gradient(to bottom, white -10%, transparent 120%), url(../img/order-lr.jpg);
 	background-position-x: center;
 	background-size: cover;
 	height: 524px;
