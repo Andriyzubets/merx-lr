@@ -551,7 +551,7 @@ input::-webkit-input-placeholder {
 	padding: 10px;
 	text-decoration: none;
 	color: #fff;
-	text-shadow: 4px 4px 8px #000000;
+	text-shadow: 0 0 10px #000000;
 }
 .gal1 {
 	background-image: url(../img/ghost.jpg);
