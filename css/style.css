@@ -74,6 +74,7 @@ header {
 }
 .header-button:hover {
 	background: rgba(197,45,28,0.7);
+	box-shadow: 0 0 10px #000;
 }
 .header-button img {
 	vertical-align: middle;
@@ -96,8 +97,8 @@ header {
     outline: none;
 }
 .header-widjet:hover {
-	box-shadow: -1px 1px 10px #060101;
-	transform: scale(1.08);
+	box-shadow: 0 0 10px #060101;
+	transform: scale(1.03);
 }
 .header-widjet img {
 	vertical-align: middle;
@@ -195,7 +196,7 @@ header {
 }
 .specialist-description:hover {
  	transform: scale(1.05);
- 	box-shadow: 2px 2px 2px #2f2626;
+ 	box-shadow: 0 0 10px #000000;
 }
 
 
@@ -251,8 +252,8 @@ header {
 	padding: 15px 20px;
 }
 .hints-content div:hover {
-	box-shadow: 5px 5px 6px #ccc;
-	transform: scale(1.01);
+	box-shadow: 0 0 10px #000000;
+	transform: scale(1.02);
 }
 .marked-text {
 	color: #d00b0b;
@@ -350,7 +351,7 @@ input::-webkit-input-placeholder {
 }
 .button-discont:hover {
 
- 	box-shadow: 0 4px 4px rgba(100,50,100,.6);
+ 	box-shadow: 0 0 10px rgba(100,50,100,.6);
   	color: white;
   	transform: translateY(-4px);
 }
