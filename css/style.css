@@ -169,6 +169,15 @@ header {
 	color: #5bb065;
 	font-weight: 900;
 }
+.card-big-text1 {
+	font-size: 95px;
+	color: #5bb065;
+	font-weight: 900;
+	margin: 4% 0 0 0;
+}
+.last {
+	height: 68%;
+}
 .card img {
 	margin: 15px 0 15px 0;
 }
@@ -539,7 +548,7 @@ input::-webkit-input-placeholder {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	max-height: 510px;
+	max-height: 770px;
     height: 100vw;
 }
 .photos-gallery-item {
@@ -559,22 +568,31 @@ input::-webkit-input-placeholder {
 	transform: scale(1.02);
 }
 .gal1 {
-	background-image: url(../img/ghost.jpg);
-}
-.gal2 {
 	background-image: url(../img/bedroom.jpg);
 }
-.gal3 {
+.gal2 {
 	background-image: url(../img/sofa.jpg);
 }
+.gal3 {
+	background-image: url(../img/bed.png);
+}
 .gal4 {
-	background-image: url(../img/childroom.jpg);
+	background-image: url(../img/ghost.jpg);
 }
 .gal5 {
-	background-image: url(../img/tables.jpg);
+	background-image: url(../img/walls.png);
 }
 .gal6 {
-	background-image: url(../img/armchair.jpg);
+	background-image: url(../img/cabinets.png);
+}
+.gal7 {
+	background-image: url(../img/childroom.jpg);
+}
+.gal8 {
+	background-image: url(../img/tables.jpg);
+}
+.gal9 {
+	background-image: url(../img/coming.png);
 }
 
 @media screen and (max-width: 922px) {
@@ -638,8 +656,8 @@ input::-webkit-input-placeholder {
 	}
 	.photos-gallery-content {
 		justify-content: space-around;
-	    max-height: 700px;
-    	height: 75vw;
+        max-height: 1170px;
+    	height: 127vw;
 	}
 }
 @media screen and (max-width: 768px) {
@@ -662,7 +680,7 @@ input::-webkit-input-placeholder {
 		height: 40px;
 	}
 	.header-main {
-	    height: 77%;
+	    height:100%;
 	}
 	.specialist-description {
     	width: 80vw;
@@ -684,8 +702,8 @@ input::-webkit-input-placeholder {
     align-items: center;
 	}
 	.photos-gallery-content {
-    max-height: 1340px;
-    height: 175vw;
+    max-height: 2050px;
+    height: 266vw;
 	}
 	.photos-gallery-item {
     	width: 60%;
@@ -702,8 +720,8 @@ input::-webkit-input-placeholder {
 		font-size: 25px
 	}
 	.photos-gallery-content {
-	    max-height: 1430px;
-	    height: 290vw;
+        max-height: 2070px;
+    	height: 430vw;
 	}
 	.photos-gallery-item {
     width: 75%;
