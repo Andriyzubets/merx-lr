@@ -440,8 +440,9 @@ input::-webkit-input-placeholder {
 }
 .project-order {
 	text-align: center;
-	background-image: linear-gradient(to bottom, white -10%, transparent 120%), url(../img/order-lr.jpg);
+	background-image: linear-gradient(to bottom, white -10%, transparent 120%), url(../img/order-lr.png);
 	background-position-x: center;
+	background-position-y: center;
 	background-size: cover;
 	height: 524px;
 	background-size: cover;
