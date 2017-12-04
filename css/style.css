@@ -152,7 +152,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: overlay;
+    overflow: hidden;
     text-transform: uppercase;
 }
 .card:hover {
@@ -169,6 +169,7 @@ header {
 	font-size: 102px;
 	color: #5bb065;
 	font-weight: 900;
+	margin: 0;
 }
 .card-big-text1 {
 	font-size: 95px;
